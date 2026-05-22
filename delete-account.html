@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eliminar cuenta — Lumio</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --gold: #F0A500;
+    --dark: #0f0f0f;
+    --text: #1a1a1a;
+    --muted: #666;
+    --border: #e8e8e8;
+    --bg: #fafaf8;
+    --red: #e74c3c;
+  }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  header {
+    background: var(--dark);
+    padding: 32px 24px;
+    text-align: center;
+  }
+  .logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    color: var(--gold);
+  }
+  .logo span { color: #fff; font-size: 0.85rem; display: block; font-family: 'DM Sans', sans-serif; font-weight: 300; margin-top: 4px; letter-spacing: 2px; text-transform: uppercase; }
+  main {
+    max-width: 680px;
+    margin: 60px auto;
+    padding: 0 24px 80px;
+  }
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    color: var(--dark);
+    margin-bottom: 16px;
+  }
+  .warning {
+    background: #fdf2f2;
+    border-left: 3px solid var(--red);
+    padding: 16px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.95rem;
+    color: #c0392b;
+  }
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
+    color: var(--dark);
+    margin: 32px 0 10px;
+  }
+  p { margin-bottom: 14px; color: #333; }
+  ul { margin: 10px 0 16px 20px; }
+  li { margin-bottom: 8px; color: #333; }
+  .step {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin: 12px 0;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .step-num {
+    background: var(--gold);
+    color: #fff;
+    font-weight: 500;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 0.9rem;
+  }
+  .step-text strong { display: block; margin-bottom: 4px; }
+  a { color: var(--gold); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .email-box {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .email-box a {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  footer {
+    text-align: center;
+    padding: 32px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Lumio <span>Finanzas Personales</span></div>
+</header>
+
+<main>
+  <h1>Eliminar mi cuenta</h1>
+  <p>Si deseas eliminar tu cuenta de Lumio y todos los datos asociados, podés hacerlo desde la app o enviándonos un email.</p>
+
+  <div class="warning">
+    ⚠️ La eliminación de tu cuenta es permanente e irreversible. Todos tus datos serán eliminados y no podrán recuperarse.
+  </div>
+
+  <h2>Opción 1: Desde la app</h2>
+
+  <div class="step">
+    <div class="step-num">1</div>
+    <div class="step-text"><strong>Abrí Lumio</strong> e iniciá sesión con tu cuenta.</div>
+  </div>
+  <div class="step">
+    <div class="step-num">2</div>
+    <div class="step-text"><strong>Andá a Perfil</strong> tocando el ícono de perfil en la barra inferior.</div>
+  </div>
+  <div class="step">
+    <div class="step-num">3</div>
+    <div class="step-text"><strong>Seleccioná "Eliminar cuenta"</strong> y confirmá la acción.</div>
+  </div>
+
+  <h2>Opción 2: Por email</h2>
+  <p>Envianos un email desde la dirección asociada a tu cuenta con el asunto <strong>"Solicitud de eliminación de cuenta"</strong>:</p>
+
+  <div class="email-box">
+    <a href="mailto:Lumiofinanzas@gmail.com">Lumiofinanzas@gmail.com</a>
+  </div>
+
+  <p>Procesaremos tu solicitud en un plazo de 7 días hábiles.</p>
+
+  <h2>¿Qué datos se eliminan?</h2>
+  <ul>
+    <li>Tu dirección de correo electrónico y datos de acceso</li>
+    <li>Todos tus registros de patrimonio</li>
+    <li>Todas tus categorías creadas</li>
+    <li>Cualquier otro dato asociado a tu cuenta</li>
+  </ul>
+
+  <p>No conservamos ningún dato personal una vez procesada la eliminación.</p>
+</main>
+
+<footer>
+  © 2026 Lumio — Finanzas Personales · <a href="./index.html">Política de Privacidad</a>
+</footer>
+
+</body>
+</html>
